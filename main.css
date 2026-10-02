@@ -1,0 +1,31 @@
+body{
+    background-color: orange;
+}
+header{
+    background-color: white;
+    padding: 20px 6px;
+    text-align: center;
+}
+.container{
+    padding: 20px 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+aside{
+    background-color: white;
+    width: 30%;
+    height: 50vh;
+    text-align: center;
+}
+main{
+    background-color: white;
+    width: 65%;
+    height: 50vh;
+    text-align: center;
+}
+footer{
+    background-color: white;
+    padding: 20px 6px;
+    text-align: center;
+}
