@@ -1,71 +1,20 @@
 *{
-    text-decoration:none;
+    box-sizing: border-box;
 }
 body{
     background-color: green;
+    padding: 16px;
 }
 .header{
-    text-align:center;
+    text-align: center;
 }
 .header p{
-    color:#8ef18e;
+    color: #aaf835;
 }
-.header h2{
+.header  h2{
     color: white;
 }
 .tabs{
-    justify-content:center;
-    align-items:center;
-    justify-content:space-between;
-    padding: 10px 0px;
-    display:flex;
-    gap: 5px;
-    border:1px solid #466352;
-    margin:0 auto 25px;
-    width: 45%;
-    border-radius: 30px;
-    height: 40px;
-}
-.tabs button{
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    color: #fff;
-    padding: 13px 18px;
-}
-.tabs button.active{
-    background-color: #81f33e;
-    color: #000;
-    border-radius: 30px;
-}
-.plans{
-    gap: 10px;
-    width: 90%;
-    min-height: 400px;
-    max-width: 1000px;
-    height: 95%;
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    align-items: stretch;
-    box-sizing: border-box;
-}
-.cards{
-    border:1px solid #466352;
-    border-radius: 20px;
-    background-color: #fff;
-}
-.cards :first{
-    border: 1px solid #466352;
-}
-.cards-card{
-    background-color: #81f33e;
-    border: 1px solid #466352;
-    border-radius: 20px;
-}
-.cards-cards{
-    background-color: white;
-    border-radius: 20px;
-}
-.nav{
-    border: #000 1px solid;
+    text-align: center;
+    
 }
