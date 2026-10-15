@@ -37,7 +37,7 @@ body{
 .plans{
     display: flex;
     gap: 10px;
-    height: 300px;
+    height: 350px;
     width: 1050px;
     justify-content: center;
     margin-top: 43px;
@@ -60,11 +60,34 @@ body{
     border-radius: 23px;
     margin-top: 5%;
     padding: 1px 10px;
-    width: 55%;
+    justify-content: space-between;
+    background-color: white;
+    display: flex;
+    padding-left: 34px;
+    margin: 2px 3px;
+}
+.switch{
+    background: white;
+    border: 1px solid grey;
+    border-radius: 23px;
+    color: white;
+    color-scheme: initial(#85eb6c);
 }
 .cards-cards{
     border: 1px solid grey;
     background-color: white;
     width: 350px;
     border-radius: 13px;
+}
+.first{
+    border-radius: 12px;
+    border: 1px solid grey;
+}
+.second{
+    border: 1px solid grey;
+    border-radius: 12px;
+}
+.third{
+    border: 1px solid grey;
+    border-radius: 12px;
 }
