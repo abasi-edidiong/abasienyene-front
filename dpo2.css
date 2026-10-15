@@ -58,6 +58,7 @@ body{
 .price{
     border: 1px solid gray;
     border-radius: 23px;
+    margin-top: 5%;
 }
 .cards-cards{
     border: 1px solid grey;
