@@ -22,7 +22,7 @@ body{
     border-radius: 24px;
     width: 45%;
     padding: 4px 10px;
-    
+    margin-left: 26%;
 }
 
 .tabs button{
@@ -36,24 +36,32 @@ body{
 }
 .plans{
     display: flex;
-    gap: 3px;
+    gap: 10px;
     height: 300px;
     width: 1050px;
     justify-content: center;
-    margin: 43px;
+    margin-top: 43px;
+    margin-left: 5%;
 }
 .cards{
     border: 1px solid grey;
     background-color: white;
     width: 350px;
+    border-radius: 13px;
 }
 .cards-card{
     border: 1px solid grey;
     background-color: #aaf835;
     width: 350px;
+    border-radius: 13px;
+}
+.price{
+    border: 1px solid gray;
+    border-radius: 23px;
 }
 .cards-cards{
     border: 1px solid grey;
     background-color: white;
     width: 350px;
+    border-radius: 13px;
 }
