@@ -24,5 +24,13 @@ body{
     background: transparent;
     color: white;
     padding: 13px 18px;
-    
+}
+.cards{
+    border: 1px solid grey;
+}
+.cards-card{
+    border: 1px solid grey;
+}
+.cards-cards{
+    border: 1px solid grey;
 }
