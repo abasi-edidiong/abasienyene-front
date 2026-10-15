@@ -21,23 +21,39 @@ body{
     border: 1px solid grey;
     border-radius: 24px;
     width: 45%;
-    padding: 4px 0px;
+    padding: 4px 10px;
+    
 }
 
 .tabs button{
     background: transparent;
     color: white;
     padding: 3px 10px;
+    gap: 4px;
+}
+.tabs .active{
+    background: #aaf835;
 }
 .plans{
     display: flex;
+    gap: 3px;
+    height: 300px;
+    width: 1050px;
+    justify-content: center;
+    margin: 43px;
 }
 .cards{
     border: 1px solid grey;
+    background-color: white;
+    width: 350px;
 }
 .cards-card{
     border: 1px solid grey;
+    background-color: #aaf835;
+    width: 350px;
 }
 .cards-cards{
     border: 1px solid grey;
+    background-color: white;
+    width: 350px;
 }
