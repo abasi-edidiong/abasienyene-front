@@ -16,5 +16,13 @@ body{
 }
 .tabs{
     text-align: center;
+    border: 1px solid grey;
+    border-radius: 24px;
+}
+
+.tabs button{
+    background: transparent;
+    color: white;
+    padding: 13px 18px;
     
 }
