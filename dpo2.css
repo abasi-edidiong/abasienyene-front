@@ -21,18 +21,21 @@ body{
     border: 1px solid grey;
     border-radius: 24px;
     width: 45%;
-    padding: 4px 10px;
+    padding: 10px 15px;
     margin-left: 26%;
 }
 
-.tabs button{
+.tabs .tab{
     background: transparent;
     color: white;
-    padding: 3px 10px;
+    border: 1px solid rgba(128, 128, 128, 0.219);
+    border-radius: 30px;
+    padding: 5px 10px;
     gap: 4px;
 }
-.tabs .active{
+.tabs .tab.active{
     background: #aaf835;
+    color: green;
 }
 .plans{
     display: flex;
@@ -56,15 +59,10 @@ body{
     border-radius: 13px;
 }
 .price{
-    border: 1px solid gray;
-    border-radius: 23px;
-    margin-top: 5%;
-    padding: 1px 10px;
-    justify-content: space-between;
+    margin: 10px 1px;
+    padding: 5px 1px;
+    border: 1px solid grey;
     background-color: white;
-    display: flex;
-    padding-left: 34px;
-    margin: 2px 3px;
 }
 .switch{
     background: white;
@@ -73,7 +71,7 @@ body{
     color: white;
     color-scheme: initial(#85eb6c);
 }
-.cards-cards{
+.cards{
     border: 1px solid grey;
     background-color: white;
     width: 350px;
@@ -82,12 +80,4 @@ body{
 .first{
     border-radius: 12px;
     border: 1px solid grey;
-}
-.second{
-    border: 1px solid grey;
-    border-radius: 12px;
-}
-.third{
-    border: 1px solid grey;
-    border-radius: 12px;
 }
